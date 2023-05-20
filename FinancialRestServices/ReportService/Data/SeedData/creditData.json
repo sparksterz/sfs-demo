@@ -1,0 +1,124 @@
+{
+  "creditReports" : [
+    {
+      "applicationId": 1001500,
+      "customerName": "SSYL TYHGGSF",
+      "source": "ABC",
+      "bureau": "EFX",
+      "tradelines":[
+        {
+          "tradelineId": 9998801001,
+          "accountNumber": "1111222233334444",
+          "balance": 5655,
+          "monthlyPayment": 150,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 9998801002,
+          "accountNumber": "1111222233335544",
+          "balance": 12333,
+          "monthlyPayment": 350,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 9998801003,
+          "accountNumber": "1111222233336644",
+          "balance": 1255,
+          "monthlyPayment": 50,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 9998801004,
+          "accountNumber": "222233337744",
+          "balance": 135455,
+          "monthlyPayment": 1250,
+          "type": "SECURED",
+          "isMortgage": true
+        }
+      ]
+    },
+    {
+      "applicationId": 1001501,
+      "customerName": "DFYTTE XYXLYH",
+      "source": "ABC",
+      "bureau": "EFX",
+      "tradelines":[
+        {
+          "tradelineId": 9997502001,
+          "accountNumber": "1111222233331100",
+          "balance": 2655,
+          "monthlyPayment": 80,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 9997502002,
+          "accountNumber": "1111222233331101",
+          "balance": 17333,
+          "monthlyPayment": 510,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 9997502003,
+          "accountNumber": "1114422233333322",
+          "balance": 1355,
+          "monthlyPayment": 55,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 9997502004,
+          "accountNumber": "465233337744",
+          "balance": 158466,
+          "monthlyPayment": 1450,
+          "type": "SECURED",
+          "isMortgage": true
+        }
+      ]
+    },
+    {
+      "applicationId": 2001523,
+      "customerName": "ASPPL QADFAD",
+      "source": "ABC",
+      "bureau": "EFX",
+      "tradelines":[
+        {
+          "tradelineId": 8897502001,
+          "accountNumber": "1111265233331155",
+          "balance": 5655,
+          "monthlyPayment": 190,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 8897502002,
+          "accountNumber": "11114645233331135",
+          "balance": 16333,
+          "monthlyPayment": 487,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 8897502003,
+          "accountNumber": "11133322233333398",
+          "balance": 1058,
+          "monthlyPayment": 35,
+          "type": "UNSECURED",
+          "isMortgage": false
+        },
+        {
+          "tradelineId": 8897502004,
+          "accountNumber": "86563337745",
+          "balance": 224466,
+          "monthlyPayment": 1830,
+          "type": "SECURED",
+          "isMortgage": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "824e21fe-236e-4712-8043-7b5259fa4864",
+		"name": "SFS Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Service 1 - Get Credit Report - Reference",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SVC1-Base-URL}}/{{SVC1-GetReport-Path}}?applicationId={{ValidApplicationId-1}}&source={{InitTestSource}}&bureau={{InitTestBureau}}",
+					"host": [
+						"{{SVC1-Base-URL}}"
+					],
+					"path": [
+						"{{SVC1-GetReport-Path}}"
+					],
+					"query": [
+						{
+							"key": "applicationId",
+							"value": "{{ValidApplicationId-1}}"
+						},
+						{
+							"key": "source",
+							"value": "{{InitTestSource}}"
+						},
+						{
+							"key": "bureau",
+							"value": "{{InitTestBureau}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Service 1 - Get Credit Report - For modifying",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SVC1-Base-URL}}/{{SVC1-GetReport-Path}}?applicationId={{ValidApplicationId-3}}&source={{InitTestSource}}&bureau={{InitTestBureau}}",
+					"host": [
+						"{{SVC1-Base-URL}}"
+					],
+					"path": [
+						"{{SVC1-GetReport-Path}}"
+					],
+					"query": [
+						{
+							"key": "applicationId",
+							"value": "{{ValidApplicationId-3}}"
+						},
+						{
+							"key": "source",
+							"value": "{{InitTestSource}}"
+						},
+						{
+							"key": "bureau",
+							"value": "{{InitTestBureau}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Service 2 - Get Debt Statistics - Reference",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SVC2-Base-URL}}/{{SVC2-GetDebts-Path}}?applicationId={{ValidApplicationId-1}}&annualIncome=50000",
+					"host": [
+						"{{SVC2-Base-URL}}"
+					],
+					"path": [
+						"{{SVC2-GetDebts-Path}}"
+					],
+					"query": [
+						{
+							"key": "applicationId",
+							"value": "{{ValidApplicationId-1}}"
+						},
+						{
+							"key": "annualIncome",
+							"value": "50000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Service 2 - Get Debt Statistics - For modifying",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SVC2-Base-URL}}/{{SVC2-GetDebts-Path}}?applicationId={{ValidApplicationId-2}}&annualIncome=70000",
+					"host": [
+						"{{SVC2-Base-URL}}"
+					],
+					"path": [
+						"{{SVC2-GetDebts-Path}}"
+					],
+					"query": [
+						{
+							"key": "applicationId",
+							"value": "{{ValidApplicationId-2}}"
+						},
+						{
+							"key": "annualIncome",
+							"value": "70000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
