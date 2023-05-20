@@ -1,5 +1,7 @@
 # SFS Demo Exercise
 
+```A QUICK NOTE: I would advise you view this markdown with a local reader such as VS Code's markdown preview. This will allow you to see images and follow the links directly to relevant files from the Repo's root.```
+
 This repository represents a well tested coding exercise sample based off the [exercise instructions linked here](.\supporting-files\Instructions.pdf). [There is a video session that can be found here (YouTube)](https://youtu.be/7p1_qcDhf2o) which does a walkthrough of the project among other topics outlined in the exercise. First 10 minutes are focused on the project walkthrough, second 10 minutes are focused on the exercise questions (sorry it was a bit longer than I hoped!)
 
 At a high level it represents a project with 2 separate REST services. With one service relying on the other for data. The scenario is financially based and the first sevice can be thought of as the `ReportService` (For retieving credit reports) and the other as the `DebtService` (for calculating types of debts based off the credit reports).
